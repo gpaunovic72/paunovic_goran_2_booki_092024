@@ -1,0 +1,103 @@
+/*******Recherche hébergements***********/
+
+.infoGroup {
+  display: flex;
+  flex-direction: column;
+  width: 93.06%;
+  height: 281px;
+  margin: 50px 50px;
+  gap: 35px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  height: 53px;
+  gap: 8px;
+  width: 100%;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  height: 12.75rem;
+  gap: 39px;
+}
+
+/*******Zone de recherche***********/
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 23.6rem;
+  height: 3.063rem;
+  font-size: var(--filter-bg-color);
+}
+
+.searchBar .cta {
+  background-color: var(--main-color);
+  border: none;
+  width: 8.25rem;
+  height: 49px;
+  border-radius: 0px 15px 15px 0px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.searchBar input {
+  border: none;
+  width: 9.2rem;
+  height: 1.313rem;
+  font-size: 18px;
+  font-weight: var(--title-font-weight);
+}
+
+.searchBar input::placeholder {
+  font-weight: var(--title-font-weight);
+  color: #000000;
+}
+
+.searchBar img {
+  width: 3.125rem;
+  height: 3.063rem;
+}
+/*******Zone de filtres***********/
+.filterBar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 758px;
+  height: 50px;
+  padding-left: 0px;
+}
+.filterBar_icon {
+  display: flex;
+  gap: 10px;
+  width: 758px;
+  font-size: 17px;
+  font-weight: var(--title-font-weight);
+}
+
+.filterBar_icon :hover {
+  background-color: var(--filter-bg-color);
+  border-top: none;
+  color: #000000;
+}
+
+.iconFilter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #d9d9d9;
+  border-radius: 25px;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.infoBar {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  gap: 10px;
+}
