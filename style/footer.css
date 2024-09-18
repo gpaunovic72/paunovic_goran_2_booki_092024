@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  width: 446.67px;
+  line-height: 18.78px;
+}
