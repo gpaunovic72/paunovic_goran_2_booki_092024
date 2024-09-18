@@ -1,0 +1,40 @@
+/****** Activités ***********/
+
+.section__activites {
+  width: 1340px;
+  height: 559.02px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.section__activites h2 {
+  margin-top: 30px;
+}
+
+.section-activites__activites {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.activites-card {
+  width: 297.5px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px 0px #0000001a;
+}
+
+.section-activites__activites img {
+  border-radius: 20px 20px 0px 0px;
+  width: 297.5px;
+  height: 380px;
+}
+
+.activites {
+  font-size: var(--activites-font-size);
+  font-weight: var(--activites-font-weight);
+  padding: 20px 19px 20px 19px;
+}
