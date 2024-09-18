@@ -35,12 +35,6 @@
   color: var(--main-color);
 }
 
-html,
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
 h2 {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);

@@ -3,7 +3,6 @@
 .infoGroup {
   display: flex;
   flex-direction: column;
-  width: 93.06%;
   height: 281px;
   margin: 50px 50px;
   gap: 35px;
@@ -20,7 +19,6 @@
 .bar {
   display: flex;
   flex-direction: column;
-  height: 12.75rem;
   gap: 39px;
 }
 
@@ -29,8 +27,6 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  width: 23.6rem;
-  height: 3.063rem;
   font-size: var(--filter-bg-color);
 }
 
@@ -98,6 +94,5 @@
 .infoBar {
   display: flex;
   align-items: center;
-  height: 24px;
   gap: 10px;
 }
