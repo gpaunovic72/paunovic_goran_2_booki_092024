@@ -23,49 +23,47 @@
     <header>
       <img src="images/logo/Logo.svg" alt="logo-booki" />
       <nav class="header">
-        <a href="#hebergements">Hébergements</a>
-        <a href="#activites">Activités</a>
+        <div class="header-btn">
+          <a href="#hebergements">Hébergements</a>
+          <a href="#activites">Activités</a>
+        </div>
       </nav>
     </header>
-    <container>
+    <section class="container">
       <section class="infoGroup">
         <div class="headline">
           <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
           <p>En plein centre-ville ou en pleine nature</p>
         </div>
-        <div class="bar">
-          <form class="searchBar" method="get" action="#">
-            <img src="images/icon/localisation.svg" alt="iconLocalisation" />
-            <input
-              type="text"
-              id="inputText"
-              name="inputText"
-              placeholder="Marseille, France"
-            />
-            <input type="submit" value="Rechercher" class="cta" />
-          </form>
-          <nav class="filterBar">
-            <h3>Filtres</h3>
-            <div class="filterBar_icon">
-              <div class="iconFilter">
-                <img src="images/icon/economique.svg" alt="iconÉconomique" />
-                <a href="#">Économique</a>
-              </div>
-              <div class="iconFilter">
-                <img src="images/icon/familial.svg" alt="iconFamilial" />
-                <a href="#">Familial</a>
-              </div>
-              <div class="iconFilter">
-                <img src="images/icon/romantique.svg" alt="iconRomantique" />
-                <a href="#">Romantique</a>
-              </div>
-              <div class="iconFilter">
-                <img src="images/icon/pepites.svg" alt="iconNosPépites" />
-                <a href="#">Nos pépites</a>
-              </div>
-            </div>
-          </nav>
-        </div>
+        <form class="searchBar" method="get" action="#">
+          <img src="images/icon/localisation.svg" alt="iconLocalisation" />
+          <input
+            type="text"
+            id="inputText"
+            name="inputText"
+            placeholder="Marseille, France"
+          />
+          <input type="submit" value="Rechercher" class="cta" />
+        </form>
+        <nav class="filterBar">
+          <h3 class="filter-title">Filtres</h3>
+          <div class="iconFilter">
+            <img src="images/icon/economique.svg" alt="iconÉconomique" />
+            <a href="#">Économique</a>
+          </div>
+          <div class="iconFilter">
+            <img src="images/icon/familial.svg" alt="iconFamilial" />
+            <a href="#">Familial</a>
+          </div>
+          <div class="iconFilter">
+            <img src="images/icon/romantique.svg" alt="iconRomantique" />
+            <a href="#">Romantique</a>
+          </div>
+          <div class="iconFilter">
+            <img src="images/icon/pepites.svg" alt="iconNosPépites" />
+            <a href="#">Nos pépites</a>
+          </div>
+        </nav>
         <div class="infoBar">
           <img src="images/icon/i.svg" alt="iconInformation" />
           <p>Plus de 500 logements sont disponobles dans cette ville</p>
@@ -466,10 +464,10 @@
                 <article class="article-card">
                   <img
                     src="images/activites/paul-hermann.jpg"
-                    alt="Image du Fort de Promègues"
+                    alt="Image du Fort de Pomègues"
                   />
                   <div class="activites-card-txt">
-                    <h3 class="activites-card-title">Fort de Promègues</h3>
+                    <h3 class="activites-card-title">Fort de Pomègues</h3>
                   </div>
                 </article>
               </a>
@@ -521,6 +519,6 @@
           </div>
         </footer>
       </div>
-    </container>
+    </section>
   </body>
 </html>

@@ -14,10 +14,12 @@
   /****** Text configuration ***********/
   --title-font-size: 1.375rem;
   --filterBar-font-size: 1.125rem;
+  --filter-font-size: 1.063rem;
   --infoBar-font-size: 1rem;
   --activites-font-size: 1rem;
 
   --title-font-weight: 700;
+  --filter-font-weight: 700;
   --infoBar-font-weight: 400;
   --activites-font-weight: 700;
 
@@ -32,19 +34,28 @@
   padding: 0;
 }
 
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .fa-solid {
   color: var(--main-color);
 }
 
 body {
   max-width: 1440px;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 header {
   width: 100%;
 }
 
-container {
+.container {
   width: 100%;
 }
 
@@ -70,24 +81,36 @@ p {
 
 /****** Media queries ***********/
 
-/* Large devices ( Screen, / greater than 1440px) */
-@media (min-width: 1440px) {
-  html {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  /****** InfoGroup ***********/
+
+  .filterBar {
+  }
+
+  .infoBar {
+    margin-top: 35px;
+  }
+
+  /****** Hebergements And Populaires ***********/
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
 
+  /****** Hebergements ***********/
+
   .hebergements {
     width: 100%;
   }
+
+  .hebergements-cards,
+  .hebergements-cards-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /****** Populaires ***********/
 
   .populaires {
     width: 100%;
@@ -112,24 +135,25 @@ p {
     font-size: 13px;
   }
 
-  .activites {
-    width: 100%;
-    margin-top: 30px;
-  }
+  /****** Activités ***********/
 
   .activites-card {
     display: flex;
     justify-content: space-between;
+    height: 270px;
   }
 
-  .activites-card img,
-  a {
+  .activites-card a {
     width: 193.5px;
+  }
+
+  .activites-card img {
+    width: 100%;
     height: 200px;
   }
-}
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-  /* ... */
+  /* Small devices (phones, less than 768px) */
+  @media (max-width: 767.98px) {
+    /* ... */
+  }
 }

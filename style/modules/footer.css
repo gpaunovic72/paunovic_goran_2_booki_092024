@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 35px;
+  width: 100%;
 }
 
 .footer div {
@@ -10,6 +11,5 @@
   flex-direction: column;
   gap: 15px;
   padding: 20px;
-  width: 446.67px;
-  line-height: 18.78px;
+  width: 33%;
 }

@@ -17,18 +17,14 @@
   gap: 8px;
 }
 
-.bar {
-  display: flex;
-  flex-direction: column;
-  gap: 39px;
-}
-
 /*******Zone de recherche***********/
 .searchBar {
   display: flex;
   align-items: center;
   gap: 24px;
   font-size: var(--filter-bg-color);
+  max-width: 377px;
+  width: 100%;
 }
 
 .searchBar .cta {
@@ -63,19 +59,17 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  width: 758px;
   height: 50px;
-  padding-left: 0px;
-}
-.filterBar_icon {
-  display: flex;
-  gap: 10px;
-  width: 758px;
-  font-size: 17px;
-  font-weight: var(--title-font-weight);
+  max-width: 758px;
+  width: 100%;
 }
 
-.filterBar_icon :hover {
+.filterBar a {
+  font-size: var(--filter-font-size);
+  font-weight: var(--filter-font-weight);
+}
+
+.filterBar .iconFilter:hover {
   background-color: var(--filter-bg-color);
   border-top: none;
   color: #000000;
@@ -85,13 +79,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  gap: 10px;
-  height: 50px;
-  width: 100%;
+  height: 100%;
+  padding: 4px 19px;
+  box-sizing: border-box;
+  white-space: nowrap;
 }
 
+.iconFilter img {
+  width: 22px;
+  height: 22px;
+}
 .infoBar {
   display: flex;
   align-items: center;
