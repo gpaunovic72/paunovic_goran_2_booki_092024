@@ -7,7 +7,6 @@
   gap: 30px;
   margin-top: 35px;
   max-height: 559.02px;
-  height: 100%;
 }
 
 .activites-card {
@@ -41,12 +40,12 @@
 }
 
 .activites-card .activites-card-txt {
-  max-height: 59px;
-  height: 100%;
   display: flex;
   align-items: center;
+  height: 59px;
 }
 
 .activites-card .activites-card-title {
   padding: 20px 19px 20px 19px;
+  width: 100%;
 }

@@ -3,7 +3,6 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 100%;
   height: 79px;
 }
 
@@ -16,7 +15,6 @@ header img {
 .header {
   display: flex;
   padding: 0px 50px 0px 50px;
-  height: 35px;
 }
 .header-btn {
   display: flex;
@@ -28,7 +26,6 @@ header img {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100%;
 }
 
 .header-btn a:hover {

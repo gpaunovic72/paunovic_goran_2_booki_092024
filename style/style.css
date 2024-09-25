@@ -86,12 +86,16 @@ p {
   /****** InfoGroup ***********/
 
   .filterBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    height: 91px;
   }
 
-  .infoBar {
-    margin-top: 35px;
+  .iconFilter a {
+    font-size: 16px;
   }
-
   /****** Hebergements And Populaires ***********/
 
   .hebergements-and-populaires {
@@ -102,12 +106,18 @@ p {
 
   .hebergements {
     width: 100%;
+    height: 611.5px;
   }
 
   .hebergements-cards,
   .hebergements-cards-2 {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .hebergements-cards .card-subtitle,
+  .hebergements-cards-2 .card-subtitle {
+    font-size: 14px;
   }
 
   /****** Populaires ***********/
@@ -128,11 +138,11 @@ p {
   }
 
   .populaires-cards .card-title {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .populaires-cards .card-subtitle {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   /****** Activités ***********/
@@ -150,6 +160,10 @@ p {
   .activites-card img {
     width: 100%;
     height: 200px;
+  }
+
+  .activites-card .activites-card-title {
+    font-size: 16px;
   }
 
   /* Small devices (phones, less than 768px) */
