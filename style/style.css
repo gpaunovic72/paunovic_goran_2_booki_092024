@@ -216,7 +216,7 @@ p {
     }
 
     .headline {
-      height: 79px;
+      height: auto;
     }
 
     .searchBar {
@@ -246,6 +246,7 @@ p {
 
     .iconFilter {
       width: 48.5%;
+      overflow: hidden;
     }
 
     /****** Hebergements And Populaires ***********/
@@ -283,14 +284,14 @@ p {
     }
 
     .hebergements {
-      height: 1435.5px;
+      height: auto;
       gap: 15px;
       padding: 20px;
     }
 
     .hebergements-cards,
     .hebergements-cards-2 {
-      height: 651.75px;
+      height: auto;
       flex-direction: column;
       gap: 15px;
     }
