@@ -210,7 +210,7 @@ p {
 
     .infoGroup {
       width: 100%;
-      height: 432px;
+      height: auto;
       padding-left: 20px;
       padding-right: 20px;
     }
@@ -237,7 +237,7 @@ p {
 
     .filterBar {
       width: 100%;
-      height: 161px;
+      height: auto;
     }
     .groupes-icon {
       flex-wrap: wrap;
