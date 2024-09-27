@@ -6,20 +6,17 @@
   padding: 30px;
   gap: 30px;
   margin-top: 35px;
-  max-height: 559.02px;
 }
 
 .activites-card {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 439px;
   border-radius: 20px;
+  justify-content: space-between;
   gap: 30px;
 }
 
 .activites-card a {
-  width: 100%;
+  width: 297.5px;
 }
 
 .activites-card .article-card {

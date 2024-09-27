@@ -2,12 +2,13 @@
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
+  margin-top: 35px;
+  box-sizing: border-box;
 }
 
 .hebergements-and-populaires section {
   background-color: var(--main-bg-color);
   border-radius: 20px;
-  padding: 30px;
   box-sizing: border-box;
 }
 
@@ -18,6 +19,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 30px;
 }
 
 .hebergements-cards,
@@ -80,6 +82,7 @@
 /****** Populaires ***********/
 .populaires {
   width: 429px;
+  padding: 30px;
 }
 
 .populaires-title {
@@ -102,6 +105,7 @@
 
 .populaires-cards .card-content {
   width: 67%;
+  height: 136px;
   padding-left: 15px;
   display: flex;
   flex-direction: column;
