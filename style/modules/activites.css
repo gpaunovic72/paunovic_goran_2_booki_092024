@@ -3,9 +3,9 @@
 .activites {
   display: flex;
   flex-direction: column;
-  padding: 30px;
   gap: 30px;
   margin-top: 35px;
+  height: 100%;
 }
 
 .activites-card {
@@ -16,7 +16,7 @@
 }
 
 .activites-card a {
-  width: 297.5px;
+  width: 100%;
 }
 
 .activites-card .article-card {

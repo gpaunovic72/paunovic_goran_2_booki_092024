@@ -1,9 +1,8 @@
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
-  justify-content: space-between;
   margin-top: 35px;
-  box-sizing: border-box;
+  gap: 40px;
 }
 
 .hebergements-and-populaires section {
@@ -38,7 +37,7 @@
   flex-direction: column;
   padding: 0px 0px 15px 0px;
   gap: 4px;
-  height: 207.25px;
+  height: 100%;
 }
 
 .hebergements-cards img,
@@ -84,6 +83,7 @@
 .populaires-cards .card {
   display: flex;
   margin-top: 33px;
+  width: 100%;
 }
 
 .populaires-cards img {
